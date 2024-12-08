@@ -47,10 +47,8 @@ export default () => {
     },
   ];
   return (
-    <div className="container mx-auto top-0">
-      <div className="flex justify-center">
-        <Menubar model={items} className="bg-stone-950" />
-      </div>
+    <div className="lg:flex lg:justify-center">
+      <Menubar model={items} />
     </div>
   );
 };
